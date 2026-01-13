@@ -69,8 +69,8 @@ Schedules a reboot prompt when any of these signals are true:
 ### Option A: PDQ Deploy (Recommended)
 Create a PDQ package with two PowerShell steps:
 
-1. **PowerShell Step**: `Win11-InPlaceUpgrade-Step1.ps1`
-2. **PowerShell Step**: `Win11-InPlaceUpgrade-Step2-RebootGate.ps1`
+1. **PowerShell Step**: `Step1.ps1`
+2. **PowerShell Step**: `Step2.ps1`
 
 **PDQ Success Codes Recommendation**
 - Step 1: success code = `0` (so failures are visible)
